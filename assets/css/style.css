@@ -37476,6 +37476,9 @@ footer [class*=col-] .widget+.widget {
   margin: 0;
   position: relative;
 }
+.logo-integration {
+  margin: auto;
+}
 #comments ol.commentlist {
   list-style: none;
   margin: 0;

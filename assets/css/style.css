@@ -30029,8 +30029,7 @@ button:focus {
 .nav-tabs.nav-tabs-bg .nav-link:last-child {
   margin-right: 0;
 }
-.nav-tabs.nav-tabs-bg .nav-link:hover,
-.nav-tabs.nav-tabs-bg .nav-link.active {
+.nav-tabs.nav-tabs-bg .nav-link:hover {
   color: #343f52;
   border-color: transparent;
   background: #fff;
@@ -30041,8 +30040,7 @@ button:focus {
   font-weight: 500;
   color: #60697b;
 }
-.nav-tabs.nav-tabs-bg.nav-tabs-shadow-lg .nav-link:hover,
-.nav-tabs.nav-tabs-bg.nav-tabs-shadow-lg .nav-link.active {
+.nav-tabs.nav-tabs-bg.nav-tabs-shadow-lg .nav-link:hover {
   box-shadow: 0rem 0.25rem 1.75rem rgba(30, 34, 40, 0.07);
 }
 .nav-tabs.flex-column.nav-tabs-bg .nav-item {
@@ -37457,7 +37455,7 @@ footer [class*=col-] .widget+.widget {
   margin-top: 1rem;
 }
 .card-body-article {
-  height: 430px;
+  min-height: 430px;
 }
 .sticky-sidebar {
   position: -webkit-sticky;
@@ -37477,6 +37475,9 @@ footer [class*=col-] .widget+.widget {
 #comments {
   margin: 0;
   position: relative;
+}
+.logo-integration {
+  margin: auto;
 }
 #comments ol.commentlist {
   list-style: none;

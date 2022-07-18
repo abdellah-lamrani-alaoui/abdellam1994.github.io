@@ -37751,6 +37751,11 @@ footer.bg-dark.angled.upper-start:before {
   cursor:pointer;
 }
 
+.block-scroller {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0px);
